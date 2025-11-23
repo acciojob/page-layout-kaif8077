@@ -14,10 +14,10 @@ const App = () => {
 
   return (
     <PageLayout
-      header={<h1>Header</h1>}
-      footer={<p>Footer</p>}
+      header={<h1>Header</h1>}  
+      footer={<p>© 2023 My Website. All rights reserved.</p>}  
     >
-      <p>This is the content of my website.</p>
+      <p>This is the content of my website.</p>  
     </PageLayout>
   );
 };
